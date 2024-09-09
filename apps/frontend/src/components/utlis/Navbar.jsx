@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-100 py-2.5  fixed top-0 w-full z-50 backdrop:blur font-ubuntu">
+    <nav className="bg-white border-gray-100 py-2  fixed top-0 w-full z-50 backdrop:blur ">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 py-1 mx-auto">
         <Link to="#" className="flex items-center">
           <img

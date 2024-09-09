@@ -1,3 +1,5 @@
+
+import Home from "./components/Home/Home"
 import Navbar from "./components/utlis/Navbar"
 
 
@@ -11,6 +13,8 @@ function App() {
      
      <div>
      <Navbar/>
+     <Home/>
+   
      
      </div>
     </>
