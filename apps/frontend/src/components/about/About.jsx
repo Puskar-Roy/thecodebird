@@ -68,13 +68,13 @@ function CalendarIcon(props) {
   }
 
 
-const AboutSection = () => {
+const About = () => {
   return (
     <section id="about" className="py-12 md:py-24 bg-muted">
       <div className="container px-4 md:px-6">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12">
           <div className="space-y-4">
-            <div className="inline-block rounded-lg bg-primary px-3 py-1 text-sm text-primary-foreground">
+            <div className="inline-block rounded-lg bg-blue-500 px-3 py-1 text-sm text-primary-foreground text-white font-semibold">
               About Us
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -84,29 +84,29 @@ const AboutSection = () => {
            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius cum optio ipsam nulla nobis. Consequatur, quibusdam ut. Explicabo voluptatem repellendus, laborum ea tenetur quae eligendi sequi cumque perspiciatis rerum magnam.
             </p>
           </div>
-          <div className="grid gap-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="flex flex-col items-start gap-2 rounded-lg bg-background p-4 shadow-sm">
+          <div className="grid gap-6">
+            <div className="grid grid-cols-2 gap-6">
+              <div className="flex flex-col items-start gap-2 rounded-xl bg-background p-4 shadow-2xl">
                 <UsersIcon className="h-8 w-8 text-primary" />
-                <div className="text-2xl font-bold">50+</div>
-                <div className="text-sm text-muted-foreground">Members</div>
+                <div className="text-2xl font-bold">150+</div>
+                <div className="text-lg font-semibold text-muted-foreground">Members<span className="text-blue-600 text-sm"> (till 2024)</span></div>
               </div>
-              <div className="flex flex-col items-start gap-2 rounded-lg bg-background p-4 shadow-sm">
+              <div className="flex flex-col items-start gap-2 rounded-xl bg-background p-4 shadow-2xl">
                 <CalendarIcon className="h-8 w-8 text-primary" />
-                <div className="text-2xl font-bold">24</div>
-                <div className="text-sm text-muted-foreground">Events</div>
+                <div className="text-2xl font-bold">24+</div>
+                <div className="text-lg font-semibold text-muted-foreground">Events<span className="text-blue-600 text-sm"> (till 2024)</span></div>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="flex flex-col items-start gap-2 rounded-lg bg-background p-4 shadow-sm">
+            <div className="grid grid-cols-2 gap-6">
+              <div className="flex flex-col items-start gap-2 rounded-xl bg-background p-4 shadow-2xl">
                 <TrophyIcon className="h-8 w-8 text-primary" />
                 <div className="text-2xl font-bold">10+</div>
-                <div className="text-sm text-muted-foreground">Awards</div>
+                <div className="text-lg font-semibold text-muted-foreground ">Achievement<span className="text-blue-600 text-sm"> (till 2024)</span></div>
               </div>
-              <div className="flex flex-col items-start gap-2 rounded-lg bg-background p-4 shadow-sm">
+              <div className="flex flex-col items-start gap-2 rounded-xl bg-background p-4 shadow-2xl">
                 <UsersIcon className="h-8 w-8 text-primary" />
-                <div className="text-2xl font-bold">100+</div>
-                <div className="text-sm text-muted-foreground">Investments</div>
+                <div className="text-2xl font-bold">400+</div>
+                <div className="text-lg font-semibold text-muted-foreground">Alumunies<span className="text-blue-600 text-sm"> (till 2024)</span></div>
               </div>
             </div>
           </div>
@@ -116,4 +116,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default About;
