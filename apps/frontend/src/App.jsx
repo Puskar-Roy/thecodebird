@@ -1,5 +1,6 @@
 
-import About from "./components/about/About"
+
+import Home from "./components/home/Home"
 
 import Navbar from "./components/utlis/Navbar"
 
@@ -14,8 +15,8 @@ function App() {
      
      <div>
      <Navbar/>
- 
-     <About/>
+     <Home/>
+  
    
      
      </div>

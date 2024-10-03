@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-100 py-2  fixed top-0 w-full z-50 backdrop:blur ">
+    <nav className="border-gray-100 py-2  fixed top-0 w-full z-50 backdrop:blur ">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 py-1 mx-auto">
         <Link to="#" className="flex items-center">
           <img
@@ -15,7 +15,7 @@ const Navbar = () => {
             className="h-8 mr-3 sm:h-12"
             alt="Landwind Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap">
+          <span className="self-center text-2xl text-white font-semibold whitespace-nowrap">
             The CodeBird
           </span>
         </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="#"
-                className="block text-lg py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 "
+                className="block text-lg py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 "
               >
                 About
               </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="#"
-                className="block text-lg py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 "
+                className="block text-lg py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 "
               >
                 Event
               </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="#"
-                className="block text-lg py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0"
+                className="block text-lg py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0"
               >
                 Testimonial
               </Link>
@@ -100,14 +100,14 @@ const Navbar = () => {
             <li>
               <Link
                 to="#"
-                className="block text-lg py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 ">
+                className="block text-lg py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 ">
                 Team
               </Link>
             </li>
             <li>
               <Link
                 to="#"
-                className="block text-lg py-2 pl-3 pr-4 text-gray-900 border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 "
+                className="block text-lg py-2 pl-3 pr-4 text-white border-b border-gray-100 hover:bg-gray-500 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 "
               >
                 Contact
               </Link>
