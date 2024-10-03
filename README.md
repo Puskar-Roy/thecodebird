@@ -1,5 +1,9 @@
 ## The CodeBird
-## Please install ```pnpm``` in your Global Package 
+### Note 
+Please install ```pnpm``` in your Global Package 
+Do Not Push Directly In The **main** Branch. Push It in **dev** Branch
+
+## Installetion
 
 ```
  npm install -g pnpm
